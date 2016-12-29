@@ -40,3 +40,5 @@ challengeTwoView1.addSubview(challengeTwoView2)
 challengeTwoView3.center = challengeTwoView1.center
 challengeTwoView1.addSubview(challengeTwoView3)
 
+challengeTwoView4.frame.origin.x = challengeTwoView3.frame.origin.x + challengeTwoView3.frame.width
+
