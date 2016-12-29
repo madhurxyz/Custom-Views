@@ -37,3 +37,6 @@ challengeTwoView4.backgroundColor = .red
 
 challengeTwoView1.addSubview(challengeTwoView2)
 
+challengeTwoView3.center = challengeTwoView1.center
+challengeTwoView1.addSubview(challengeTwoView3)
+
