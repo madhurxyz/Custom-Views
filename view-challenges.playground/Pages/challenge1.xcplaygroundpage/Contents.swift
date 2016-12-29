@@ -23,3 +23,5 @@ challengeOneView1.backgroundColor = .white
 let challengeOneFrame2 = CGRect(x: 0.0, y: 0.0, width: 50.0, height: 50.0)
 let challengeOneView2 = UIView(frame: challengeOneFrame2)
 challengeOneView2.backgroundColor = .red
+
+challengeOneView2.center = challengeOneView1.center
