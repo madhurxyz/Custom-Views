@@ -18,4 +18,8 @@ PlaygroundPage.current.liveView = canvas // make the canvas appear in the assist
  
  (Make sure to comment out the first implementation once you start working on the second one to avoid confusion.)
  */
-//Implementation 1.0
+//Implementation 1
+let challengeTwoFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 99.0)
+let challengeTwoView1 = UIView(frame: challengeTwoFrame1)
+challengeTwoView1.backgroundColor = .white
+
