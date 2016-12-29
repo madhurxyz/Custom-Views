@@ -27,3 +27,7 @@ let challengeTwoFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeTwoView2 = UIView(frame: challengeTwoFrame2)
 challengeTwoView2.backgroundColor = .red
 
+let challengeTwoFrame3 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeTwoView3 = UIView(frame: challengeTwoFrame3)
+challengeTwoView3.backgroundColor = .red
+
