@@ -18,3 +18,4 @@ PlaygroundPage.current.liveView = canvas // make the canvas appear in the assist
  */
 let challengeOneFrame1 = CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0)
 let challengeOneView1 = UIView(frame: challengeOneFrame1)
+challengeOneView1.backgroundColor = .red
