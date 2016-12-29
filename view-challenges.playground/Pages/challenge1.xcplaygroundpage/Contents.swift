@@ -25,3 +25,4 @@ let challengeOneView2 = UIView(frame: challengeOneFrame2)
 challengeOneView2.backgroundColor = .red
 
 challengeOneView2.center = challengeOneView1.center
+challengeOneView1.addSubview(challengeOneView2)
