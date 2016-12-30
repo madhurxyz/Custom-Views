@@ -53,3 +53,8 @@ var grid = 3
 
 var grid_x: CGFloat = 0
 var grid_y: CGFloat = 0
+
+for i in 0..<grid {
+    for j in 0..<grid {
+    }
+}
