@@ -61,5 +61,6 @@ for i in 0..<grid {
         grid_x = grid_x + subViewSize25.width
         grid_y = grid_y + subViewSize25.height
         let subViewView25 = UIView(frame: subViewFrame25)
+        subViewView25.backgroundColor = .red
     }
 }
