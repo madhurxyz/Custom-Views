@@ -47,3 +47,4 @@ challengeTwoView1.addSubview(challengeTwoView4)
 //Dynamic Implementation
 let challenge25Frame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 99.0)
 let challenge25View1 = UIView(frame: challenge25Frame1)
+challenge25View1.backgroundColor = .white
