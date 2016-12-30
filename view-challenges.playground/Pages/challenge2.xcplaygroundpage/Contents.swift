@@ -59,5 +59,6 @@ for i in 0..<grid {
         let subViewSize25 = CGSize(width: challenge25View1.frame.width/CGFloat(grid), height: challenge25View1.frame.height/CGFloat(grid))
         let subViewFrame25 = CGRect(x: grid_x, y: grid_y, width: subViewSize25.width, height: subViewSize25.height)
         grid_x = grid_x + subViewSize25.width
+        grid_y = grid_y + subViewSize25.height
     }
 }
