@@ -50,3 +50,6 @@ let challenge25View1 = UIView(frame: challenge25Frame1)
 challenge25View1.backgroundColor = .white
 
 var grid = 3
+
+var grid_x: CGFloat = 0
+var grid_y: CGFloat = 0
