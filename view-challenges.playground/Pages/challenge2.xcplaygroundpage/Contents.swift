@@ -60,5 +60,6 @@ for i in 0..<grid {
         let subViewFrame25 = CGRect(x: grid_x, y: grid_y, width: subViewSize25.width, height: subViewSize25.height)
         grid_x = grid_x + subViewSize25.width
         grid_y = grid_y + subViewSize25.height
+        let subViewView25 = UIView(frame: subViewFrame25)
     }
 }
