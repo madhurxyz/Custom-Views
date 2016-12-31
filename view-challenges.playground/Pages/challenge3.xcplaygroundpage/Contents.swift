@@ -23,16 +23,17 @@ let challengeThreeView1 = UIView(frame: challengeThreeFrame1)
 challengeThreeView1.backgroundColor = .white
 
 let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView2 = UIView(frame: challengeTwoFrame2)
+let challengeThreeView2 = UIView(frame: challengeThreeFrame2)
 challengeThreeView2.backgroundColor = .green
 
 let challengeThreeFrame3 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView3 = UIView(frame: challengeTwoFrame2)
+let challengeThreeView3 = UIView(frame: challengeThreeFrame3)
 challengeThreeView3.backgroundColor = .blue
 
-let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView2 = UIView(frame: challengeTwoFrame2)
-challengeThreeView2.backgroundColor = .red
+let challengeThreeFrame4 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeThreeView4 = UIView(frame: challengeThreeFrame4)
+challengeThreeView4.backgroundColor = .red
 
 challengeThreeView1.addSubview(challengeThreeView2)
+
 
