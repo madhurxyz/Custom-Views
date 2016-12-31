@@ -18,4 +18,4 @@ let colors: [UIColor] = [.green, .blue, .red]
  
  (Make sure to comment out the first implementation once you start working on the second one to avoid confusion.)
  */
-
+let challengeThreeFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 33.0)
