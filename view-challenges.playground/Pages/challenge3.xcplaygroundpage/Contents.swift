@@ -19,28 +19,33 @@ let colors: [UIColor] = [.green, .blue, .red]
  (Make sure to comment out the first implementation once you start working on the second one to avoid confusion.)
  */
 //Implementation 1
+//let challengeThreeFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 33.0)
+//let challengeThreeView1 = UIView(frame: challengeThreeFrame1)
+//challengeThreeView1.backgroundColor = .white
+//
+//let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+//let challengeThreeView2 = UIView(frame: challengeThreeFrame2)
+//challengeThreeView2.backgroundColor = .green
+//
+//let challengeThreeFrame3 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+//let challengeThreeView3 = UIView(frame: challengeThreeFrame3)
+//challengeThreeView3.backgroundColor = .blue
+//
+//let challengeThreeFrame4 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+//let challengeThreeView4 = UIView(frame: challengeThreeFrame4)
+//challengeThreeView4.backgroundColor = .red
+//
+//challengeThreeView1.addSubview(challengeThreeView2)
+//
+//challengeThreeView3.frame.origin.x = challengeThreeView2.frame.origin.x + challengeThreeView3.frame.width
+//challengeThreeView1.addSubview(challengeThreeView3)
+//
+//challengeThreeView4.frame.origin.x = challengeThreeView3.frame.origin.x + challengeThreeView4.frame.width
+//challengeThreeView1.addSubview(challengeThreeView4)
+
+
+
+//Implementation 2
 let challengeThreeFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 33.0)
-let challengeThreeView1 = UIView(frame: challengeThreeFrame1)
-challengeThreeView1.backgroundColor = .white
-
-let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView2 = UIView(frame: challengeThreeFrame2)
-challengeThreeView2.backgroundColor = .green
-
-let challengeThreeFrame3 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView3 = UIView(frame: challengeThreeFrame3)
-challengeThreeView3.backgroundColor = .blue
-
-let challengeThreeFrame4 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeThreeView4 = UIView(frame: challengeThreeFrame4)
-challengeThreeView4.backgroundColor = .red
-
-challengeThreeView1.addSubview(challengeThreeView2)
-
-challengeThreeView3.frame.origin.x = challengeThreeView2.frame.origin.x + challengeThreeView3.frame.width
-challengeThreeView1.addSubview(challengeThreeView3)
-
-challengeThreeView4.frame.origin.x = challengeThreeView3.frame.origin.x + challengeThreeView4.frame.width
-challengeThreeView1.addSubview(challengeThreeView4)
 
 
