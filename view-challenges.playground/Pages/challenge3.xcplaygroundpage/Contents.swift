@@ -24,11 +24,11 @@ challengeThreeView1.backgroundColor = .white
 
 let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeThreeView2 = UIView(frame: challengeTwoFrame2)
-challengeThreeView2.backgroundColor = .red
+challengeThreeView2.backgroundColor = .green
 
 let challengeThreeFrame3 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeThreeView3 = UIView(frame: challengeTwoFrame2)
-challengeThreeView3.backgroundColor = .red
+challengeThreeView3.backgroundColor = .blue
 
 let challengeThreeFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeThreeView2 = UIView(frame: challengeTwoFrame2)
