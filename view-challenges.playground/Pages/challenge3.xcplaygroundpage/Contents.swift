@@ -40,3 +40,4 @@ challengeThreeView3.frame.origin.x = challengeThreeView2.frame.origin.x + challe
 challengeThreeView1.addSubview(challengeThreeView3)
 
 challengeThreeView4.frame.origin.x = challengeThreeView3.frame.origin.x + challengeThreeView4.frame.width
+challengeThreeView1.addSubview(challengeThreeView4)
