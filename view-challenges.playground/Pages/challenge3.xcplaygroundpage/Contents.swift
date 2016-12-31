@@ -52,3 +52,7 @@ challengeThreeView1.backgroundColor = .white
 
 var cells = 4
 var dynamicX: CGFloat = 0
+
+for i in 0..<cells {
+
+}
