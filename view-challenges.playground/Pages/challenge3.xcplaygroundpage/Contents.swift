@@ -59,4 +59,5 @@ for i in 0..<cells {
     dynamicX = dynamicX + subViewSize3.width
     let subViewView3 = UIView(frame: subViewFrame3)
     subViewView3.layer.borderWidth = 1.0
+    challengeThreeView1.addSubview(subViewView3)
 }
