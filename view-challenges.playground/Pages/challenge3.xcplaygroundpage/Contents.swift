@@ -46,12 +46,14 @@ let colors: [UIColor] = [.green, .blue, .red]
 
 
 //Implementation 2
-let challengeThreeFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 33.0)
+
+
+var cells = 40
+var dynamicX: CGFloat = 0
+
+let challengeThreeFrame1 = CGRect(x: 0.0, y: 0.0, width: 20 * CGFloat(cells), height: 20.0)
 let challengeThreeView1 = UIView(frame: challengeThreeFrame1)
 challengeThreeView1.backgroundColor = .white
-
-var cells = 10
-var dynamicX: CGFloat = 0
 
 for i in 0..<cells {
     let subViewSize3 = CGSize(width: challengeThreeView1.frame.width/CGFloat(cells), height: challengeThreeView1.frame.height)
