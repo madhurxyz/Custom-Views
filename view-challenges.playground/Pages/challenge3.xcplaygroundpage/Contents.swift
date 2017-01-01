@@ -56,4 +56,5 @@ var dynamicX: CGFloat = 0
 for i in 0..<cells {
     let subViewSize3 = CGSize(width: challengeThreeView1.frame.width/CGFloat(cells), height: challengeThreeView1.frame.height)
     let subViewFrame3 = CGRect(x: dynamicX, y: 0.0, width: subViewSize3.width, height: subViewSize3.height)
+    dynamicX = dynamicX + subViewSize3.width
 }
