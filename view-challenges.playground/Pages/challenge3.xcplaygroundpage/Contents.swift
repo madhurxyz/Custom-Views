@@ -58,4 +58,5 @@ for i in 0..<cells {
     let subViewFrame3 = CGRect(x: dynamicX, y: 0.0, width: subViewSize3.width, height: subViewSize3.height)
     dynamicX = dynamicX + subViewSize3.width
     let subViewView3 = UIView(frame: subViewFrame3)
+    subViewView3.layer.borderWidth = 1.0
 }
