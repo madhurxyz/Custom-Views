@@ -20,6 +20,6 @@ let colors: [UIColor] = [.green, .gray, .purple, .yellow, .red, .orange, .lightG
  */
 let challengeFourFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 99.0)
 let challengeFourView1 = UIView(frame: challengeFourFrame1)
-
+challengeFourView1.backgroundColor = .white
 
 
