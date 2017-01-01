@@ -22,4 +22,8 @@ let challengeFourFrame1 = CGRect(x: 0.0, y: 0.0, width: 99.0, height: 99.0)
 let challengeFourView1 = UIView(frame: challengeFourFrame1)
 challengeFourView1.backgroundColor = .white
 
+let challengeFourFrame2 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeFourView2 = UIView(frame: challengeFourFrame2)
+challengeFourView2.backgroundColor = .green
+
 
