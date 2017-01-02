@@ -53,3 +53,7 @@ challengeFourView8.backgroundColor = .black
 let challengeFourFrame9 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeFourView9 = UIView(frame: challengeFourFrame9)
 challengeFourView9.backgroundColor = .white
+
+let challengeFourFrame5 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeFourView5 = UIView(frame: challengeFourFrame5)
+challengeFourView5.backgroundColor = .yellow
