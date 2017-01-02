@@ -38,10 +38,10 @@ let challengeFourFrame5 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeFourView5 = UIView(frame: challengeFourFrame5)
 challengeFourView5.backgroundColor = .yellow
 
-let challengeFourFrame5 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeFourView5 = UIView(frame: challengeFourFrame5)
-challengeFourView5.backgroundColor = .red
+let challengeFourFrame6 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeFourView6 = UIView(frame: challengeFourFrame6)
+challengeFourView6.backgroundColor = .red
 
-let challengeFourFrame5 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
-let challengeFourView5 = UIView(frame: challengeFourFrame5)
-challengeFourView5.backgroundColor = .orange
+let challengeFourFrame7 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
+let challengeFourView7 = UIView(frame: challengeFourFrame7)
+challengeFourView7.backgroundColor = .orange
