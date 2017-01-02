@@ -57,3 +57,5 @@ challengeFourView9.backgroundColor = .white
 let challengeFourFrame10 = CGRect(x: 0.0, y: 0.0, width: 33.0, height: 33.0)
 let challengeFourView10 = UIView(frame: challengeFourFrame10)
 challengeFourView10.backgroundColor = .blue
+
+challengeFourView1.addSubview(challengeFourView2)
