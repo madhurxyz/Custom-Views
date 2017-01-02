@@ -59,3 +59,6 @@ let challengeFourView10 = UIView(frame: challengeFourFrame10)
 challengeFourView10.backgroundColor = .blue
 
 challengeFourView1.addSubview(challengeFourView2)
+
+challengeFourView3.frame.origin.x = challengeFourView2.frame.origin.x + challengeFourView3.frame.width
+
