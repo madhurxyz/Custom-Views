@@ -67,3 +67,4 @@ challengeFourView4.frame.origin.x = challengeFourView3.frame.origin.x + challeng
 challengeFourView1.addSubview(challengeFourView4)
 
 challengeFourView5.frame.origin.y = challengeFourView1.frame.origin.y + challengeFourView5.frame.height
+challengeFourView1.addSubview(challengeFourView5)
