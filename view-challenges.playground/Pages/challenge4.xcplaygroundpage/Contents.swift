@@ -69,9 +69,6 @@ challengeFourView1.addSubview(challengeFourView4)
 challengeFourView5.frame.origin.y = challengeFourView1.frame.origin.y + challengeFourView5.frame.height
 challengeFourView1.addSubview(challengeFourView5)
 
-challengeFourView8.frame.origin.y = challengeFourView5.frame.origin.y + challengeFourView8.frame.height
-challengeFourView1.addSubview(challengeFourView8)
-
 challengeFourView6.frame.origin.x = challengeFourView5.frame.origin.x + challengeFourView6.frame.width
 challengeFourView6.frame.origin.y = challengeFourView3.frame.origin.y + challengeFourView6.frame.height
 challengeFourView1.addSubview(challengeFourView6)
@@ -79,6 +76,9 @@ challengeFourView1.addSubview(challengeFourView6)
 challengeFourView7.frame.origin.x = challengeFourView6.frame.origin.x + challengeFourView7.frame.width
 challengeFourView7.frame.origin.y = challengeFourView4.frame.origin.y + challengeFourView7.frame.height
 challengeFourView1.addSubview(challengeFourView7)
+
+challengeFourView8.frame.origin.y = challengeFourView5.frame.origin.y + challengeFourView8.frame.height
+challengeFourView1.addSubview(challengeFourView8)
 
 challengeFourView9.frame.origin.x = challengeFourView8.frame.origin.x + challengeFourView9.frame.width
 challengeFourView9.frame.origin.y = challengeFourView6.frame.origin.y + challengeFourView9.frame.height
