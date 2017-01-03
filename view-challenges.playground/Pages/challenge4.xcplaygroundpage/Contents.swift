@@ -88,3 +88,4 @@ challengeFourView10.frame.origin.x = challengeFourView9.frame.origin.x + challen
 challengeFourView10.frame.origin.y = challengeFourView7.frame.origin.y + challengeFourView10.frame.height
 challengeFourView1.addSubview(challengeFourView10)
 
+//Dynamic Implementation
